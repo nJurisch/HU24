@@ -18,7 +18,7 @@ def test_sort(sort_function, data):
 # Main function
 if __name__ == "__main__":
     # Generate a random list of numbers for testing
-    with open('random.txt', 'r') as file:
+    with open('HU24/random.txt', 'r') as file:
         # Read the lines from the file and convert them to integers
         data = [int(line.strip()) for line in file]
 
@@ -34,7 +34,7 @@ if __name__ == "__main__":
     quick_sort_time = test_sort(sort_2, data)
     
     # Append results to 'results.txt'
-    with open("results.txt", "a+") as file:
+    with open("HU24/results.txt", "a+") as file:
         file.write(f"Computer Name: {computer_name}\n")
         file.write(f"Date of Test: {current_date}\n")
         file.write(f"Bubble Sort Time: {bubble_sort_time:.6f} seconds\n")
