@@ -3,3 +3,8 @@ Date of Test: 2024-11-12 19:15:11
 Bubble Sort Time: 3.443323 seconds
 Quick Sort Time: 0.008944 seconds
 
+Computer Name: DESKTOP-C1GK0CA
+Date of Test: 2024-11-12 19:16:54
+Bubble Sort Time: 4.694348 seconds
+Quick Sort Time: 0.011866 seconds
+
